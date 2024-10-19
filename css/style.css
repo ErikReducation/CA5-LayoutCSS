@@ -22,9 +22,6 @@ img {
     height: auto;
 }
 
-.centered {
-	text-align: center;
-}
 
 .grid {
   display:grid;
@@ -72,9 +69,10 @@ body {
 
 h1, h2 {
 font-family: "Times New Roman", sans-serif;
-  color:lightblue;
-  text-shadow: 2px 2px 2px black;
-  font-style:oblique;
+color:lightblue;
+text-shadow: 2px 2px 2px black;
+font-style:oblique;
+text-align: center;
 }
 
 p {
