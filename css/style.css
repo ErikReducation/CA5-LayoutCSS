@@ -1,0 +1,104 @@
+/*
+List of Tags to Customize
+
+form?
+form labels?
+
+*/
+.isblock {
+  display:block;
+  justify-self;
+}
+.grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.box2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.box3 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.box4 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  cursor: url(../images/tinyducky.png), auto;
+}
+
+body {
+  background-image: url(../images/royalty-free-wallpaper.webp);
+  color:darkblue;
+  font-family: "Comic Sans", sans-serif ;
+  font-weight: bold 
+}
+
+h1, h2 {
+font-family: "Times New Roman", sans-serif;
+  color:lightblue;
+  text-shadow: 2px 2px 2px black;
+  font-style:oblique;
+}
+
+p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color:blue;
+}
+
+.li1 {
+  font-family: "Afacad Flux", sans-serif;
+  color:purple;
+}
+
+.li2 {  
+  font-family "Libre Baskerville", sans-serif;
+  color:salmon;
+}
+
+a:link {
+  font-family: "Roboto", sans-serif;
+  color: navy;
+}
+
+.conversion {
+  font-family: "Helvetica", sans-serif;
+  color: orange;
+}
+
+.rate {
+  font-family: "Inconsolata", sans-serif;
+  color: green;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: pink;
+} 
+
