@@ -22,7 +22,9 @@ img {
     height: auto;
 }
 
-
+.centered {
+	text-align: center;
+}
 
 .grid {
   display:grid;
